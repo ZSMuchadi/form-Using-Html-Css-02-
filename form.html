@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <!-- creating form -->
+    <form class="form" action="get">
+        <!-- form header -->
+        <div class="form-header">
+            <h1>Create Account</h1>
+        </div>
+        <!-- form body -->
+        <div class="form-body">
+            <div class="row">
+                <!-- first name -->
+                <div class="input">
+                    <label for=""> First name*</label>
+                    <input type="text" placeholder="Enter your First name">
+                </div>
+                <!-- last name -->
+                <div class="input">
+
+                    <label for=""> Last name</label>
+                    <input type="text" placeholder="Enter your Last name">
+                </div>
+            </div>
+            <!-- email -->
+
+            <div class="input">
+                <label for="">Email*</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <!-- password -->
+            <div class="row">
+                <div class="input">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+
+                <!-- confirm password -->
+
+                <div class="input">
+                    <label for="">Confirm Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+            </div>
+            <!-- radio button -->
+            <div class="row">
+                <div class="input">
+                    <label for="">Gender</label>
+                    <div class="radio">
+                        <div>
+                            <label for="">
+
+                                <input type="radio" name="Gender">
+                                Male
+                            </label>
+                        </div>
+                        <div>
+                            <label for="">
+                                <input type="radio" name="Gender">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- check box -->
+
+                <div class="input">
+                    <label for="">Hobbies</label>
+                    <div class="checkbox">
+                        <div>
+                            <label>
+                                <input type="checkbox" value="Web">Music</label>
+                            <label>
+                                <input type="checkbox" value="iOS">Sports</label>
+                            <label>
+                                <input type="checkbox" value="Android">Travel</label>
+                            <label>
+                                <input type="checkbox" value="Game">Movies</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- select -->
+
+            <div class="row">
+                <div class="input">
+                    <label for="">Source of Income</label>
+                    <select name="" id="">
+                        <option value="Employed">Employed</option>
+                        <option value="Self Employed">Self Employed</option>
+                        <option value="unEmployed">unEmployed</option>
+                    </select>
+
+                    <!-- creating rang -->
+
+                </div>
+                <div class="input">
+                    <label for="">Income</label>
+                    <div class="range">
+                        <input type="range" min="20" max="200" step="5">
+                        <label id="income-lable">20k</label>
+                    </div>
+                </div>
+            </div>
+            <!-- creating file -->
+
+            <div class="row">
+                <div class="input">
+                    <label for="">Upload file</label>
+                    <input type="file">
+                </div>
+
+                <!-- creating number -->
+
+                <div class="input">
+                    <label for="">Age</label>
+                    <input type="number">
+                </div>
+            </div>
+
+            <!-- crating textarea -->
+
+            <div class="input">
+                <label for="">Bio</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <!-- creating footer -->
+
+            <div class="form-footer">
+                <button type="submit" class="btn">Create</button>
+              </div>
+    </form>
+</body>
+
+</html>
